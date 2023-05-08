@@ -4,6 +4,8 @@ import { getAllStarships } from "../../../services/sw-api"
 
 import { Link } from 'react-router-dom'
 
+import './StarshipList.css'
+
 
 
 const StarshipList = () => {
@@ -25,7 +27,7 @@ const StarshipList = () => {
   }, [])
 
   return (
-    <main>
+    <main className='list'>
       {starshipList.length > 0 && starshipList.map(starship => (
     <Link 
       key={starship.url}
