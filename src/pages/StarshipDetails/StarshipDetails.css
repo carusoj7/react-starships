@@ -1,4 +1,17 @@
-starship-details {
-  background-color: green;
+.starship-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.starship-details {
+  display: column;
+  padding: 20px;
+  background-color: #104e35;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 300px;
 
 }

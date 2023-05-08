@@ -11,7 +11,7 @@ function App() {
     <>
     <NavBar />
     <Routes>
-      <Route path= '/starships' element={<StarshipList />} 
+      <Route path='/starships' element={<StarshipList />} 
       />
       <Route path='/starships/:starshipId' element={<StarshipDetails />}></Route>
     </Routes>
