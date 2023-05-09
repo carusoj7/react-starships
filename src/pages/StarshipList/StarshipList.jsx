@@ -12,8 +12,8 @@ const StarshipList = () => {
   const [starshipList, setStarshipList] = useState([])
 
   const getIdFromUrl = (url) => {
-    const urlParts = url.split('/');
-    return urlParts[urlParts.length - 2];
+    const urlParts = url.split('/')
+    return urlParts[urlParts.length - 2]
   };
 
   useEffect(() => {
